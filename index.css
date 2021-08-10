@@ -1,0 +1,103 @@
+
+
+    
+@media screen and (min-width: 500px) {
+    @supports (display: flex) {
+        @media screen and (min-width:500px){
+      
+
+
+
+              
+h1 {
+    font-family: 'Zen Loop', cursive;
+    font-size: 125px;
+    text-align: center;
+}
+
+h2{
+    font-family:'Stalemate', cursive;
+    font-size: 125px;
+    text-align: center;
+
+}
+h3{
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+    text-align: center;
+
+}
+h4{
+    font-family: 'Zen Loop', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 20px;
+
+}
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+        
+    
+
+
+button{
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+   margin-left: 1.5%;
+    color:#83BDB8;
+    background-color:#383F43;
+     border-radius: 15%;
+  
+}
+  
+.container{
+    display: flex;
+ flex-direction: row;
+ justify-content: center;
+ text-align:center;
+
+
+}
+
+.container div{
+    border:25px rgb(47, 68, 88) solid;
+    margin: 5%;
+    justify-content: space-around;
+   
+ }
+
+.box-1{
+    flex:1;
+}
+
+.box-2{
+    flex:1;
+   }
+.box-3{
+    flex:1;
+
+}
+.box-4{
+    flex:1;
+}
+Ul{
+    list-style-type: none;
+}
+
+footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: baseline;
+     font-family: 'Abril Fatface', cursive;
+     font-size: 25px;
+     text-align: center;
+     color:rgb(143, 218, 205);
+     background-color: #343F46;
+}
+}
+}}
